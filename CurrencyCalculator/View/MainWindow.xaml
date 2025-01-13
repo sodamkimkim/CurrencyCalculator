@@ -7,9 +7,9 @@
        xmlns:viewModel="clr-namespace:CurrencyCalculator.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Cursor="">
-    <Window.DataContext>
-        <viewModel:MainViewModel/>
-    </Window.DataContext>
+<Window.DataContext>
+    <viewModel:MainViewModel/>
+</Window.DataContext>
     <Grid Cursor="None">
         <Grid.RowDefinitions>
             <RowDefinition/>
