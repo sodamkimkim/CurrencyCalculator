@@ -22,6 +22,7 @@ namespace CurrencyCalculator.View
         public MainWindow()
         {
             InitializeComponent();
+        
         }
  
     }

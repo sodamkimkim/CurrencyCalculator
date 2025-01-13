@@ -12,18 +12,21 @@ namespace CurrencyCalculator.ViewModel
     public class MainViewModel : INotifyPropertyChanged
     {
         private MainModel myModel = null;
+        private HttpManager httpManager = new HttpManager();
 
         public MainViewModel()
         {
             myModel = new MainModel();
+            ExchangeRate = GetExchangeRate();
+        }
+        private string GetExchangeRate()
+        {
+            var task = Task.Run(async () => await httpManager.GetData());
+            return task.Result;
         }
         public string ExchangeRate
         {
-            get
-            {
-                CalculateCurrency(myModel.exchangeRate, myModel.dollar, nameof(ExchangeRate));
-                return myModel.exchangeRate;
-            }
+            get => myModel.exchangeRate;
             set
             {
                 if (myModel.exchangeRate != value)
@@ -37,7 +40,7 @@ namespace CurrencyCalculator.ViewModel
         {
             get
             {
-                CalculateCurrency(myModel.exchangeRate, myModel.dollar, nameof(Dollar));
+                CalculateCurrency(myModel.exchangeRate, myModel.dollar);
                 return myModel.dollar;
             }
             set
@@ -58,17 +61,11 @@ namespace CurrencyCalculator.ViewModel
                 OnPropertyChanged(nameof(Won));
             }
         }
-        private void CalculateCurrency(string exchangeRateStr, string dollarStr, [CallerMemberName] string propertyName = "")
+        private void CalculateCurrency(string exchangeRateStr, string dollarStr)
         {
-            int exchangeRate = 0;
             int dollar = 0;
-            if (propertyName == nameof(ExchangeRate) && !string.IsNullOrEmpty(exchangeRateStr) && !int.TryParse(myModel.exchangeRate, out exchangeRate))
-            {
-                MessageBox.Show("Please insert number", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                myModel.exchangeRate = string.Empty;
-            }
 
-            else if (propertyName == nameof(Dollar) && !string.IsNullOrEmpty(dollarStr) && !int.TryParse(myModel.dollar, out dollar))
+            if (!string.IsNullOrEmpty(dollarStr) && !int.TryParse(myModel.dollar, out dollar))
             {
                 MessageBox.Show("Please insert number", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 myModel.dollar = string.Empty;
@@ -81,9 +78,10 @@ namespace CurrencyCalculator.ViewModel
             }
             else
             {
-                if (int.TryParse(myModel.exchangeRate, out exchangeRate) && int.TryParse(myModel.dollar, out dollar))
+
+                if (int.TryParse(myModel.dollar, out dollar) && float.TryParse(exchangeRateStr, out float exchangeRate))
                 {
-                    int result = dollar * exchangeRate;
+                    float result = dollar * exchangeRate;
                     Won = result.ToString();
                 }
             }

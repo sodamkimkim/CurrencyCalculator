@@ -8,7 +8,7 @@ namespace CurrencyCalculator.Model
 {
     public class MainModel
     {
-        public string exchangeRate = "1460";
+        public string exchangeRate = string.Empty;
         public string dollar = string.Empty;
         public string won = string.Empty;
     }
