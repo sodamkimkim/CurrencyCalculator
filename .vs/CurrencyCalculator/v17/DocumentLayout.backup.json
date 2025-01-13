@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|c:\\users\\theka\\source\\repos\\currencycalculator\\currencycalculator\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|solutionrelative:currencycalculator\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|c:\\users\\theka\\source\\repos\\currencycalculator\\currencycalculator\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|solutionrelative:currencycalculator\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|c:\\users\\theka\\source\\repos\\currencycalculator\\currencycalculator\\managers\\httpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|solutionrelative:currencycalculator\\managers\\httpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|c:\\users\\theka\\source\\repos\\currencycalculator\\currencycalculator\\model\\mainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|solutionrelative:currencycalculator\\model\\mainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|c:\\users\\theka\\source\\repos\\currencycalculator\\currencycalculator\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|solutionrelative:currencycalculator\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|c:\\users\\theka\\source\\repos\\currencycalculator\\currencycalculator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|solutionrelative:currencycalculator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|c:\\users\\theka\\source\\repos\\currencycalculator\\currencycalculator\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7694EF73-547D-45AB-B2E0-4D92467EA7AD}|CurrencyCalculator\\CurrencyCalculator.csproj|solutionrelative:currencycalculator\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HttpManager.cs",
+              "DocumentMoniker": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\Managers\\HttpManager.cs",
+              "RelativeDocumentMoniker": "CurrencyCalculator\\Managers\\HttpManager.cs",
+              "ToolTip": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\Managers\\HttpManager.cs",
+              "RelativeToolTip": "CurrencyCalculator\\Managers\\HttpManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswDwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T08:25:29.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CurrencyCalculator\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\App.xaml.cs",
+              "RelativeToolTip": "CurrencyCalculator\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T05:45:23.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CurrencyCalculator\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CurrencyCalculator\\View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T05:21:41.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "CurrencyCalculator\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "CurrencyCalculator\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T00:46:32.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\App.xaml",
+              "RelativeDocumentMoniker": "CurrencyCalculator\\App.xaml",
+              "ToolTip": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\App.xaml",
+              "RelativeToolTip": "CurrencyCalculator\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-13T05:45:27.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CurrencyCalculator\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\View\\MainWindow.xaml",
+              "RelativeToolTip": "CurrencyCalculator\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-13T00:15:00.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainModel.cs",
+              "DocumentMoniker": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\Model\\MainModel.cs",
+              "RelativeDocumentMoniker": "CurrencyCalculator\\Model\\MainModel.cs",
+              "ToolTip": "C:\\Users\\theka\\source\\repos\\CurrencyCalculator\\CurrencyCalculator\\Model\\MainModel.cs",
+              "RelativeToolTip": "CurrencyCalculator\\Model\\MainModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T05:00:59.761Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
