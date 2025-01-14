@@ -13,12 +13,27 @@ namespace CurrencyCalculator.ViewModel
     {
         private MainModel myModel = null;
         private HttpManager httpManager = new HttpManager();
+        private Timer timer;
 
         public MainViewModel()
         {
             myModel = new MainModel();
+            // myModel.exchangeRate = 1400f.ToString();
+
+            timer = new Timer(new TimerCallback(TimerWork), 0, 0, 500);
+        }
+        private void TimerWork(object? state)
+        {
+            // Test 코드
+            //float temp = 0f;
+            //if (float.TryParse(myModel.exchangeRate, out temp))
+            //{
+            //    //ExchangeRate = temp + 0.1f + "";
+            //    ExchangeRate = $"{temp + 0.1f:F1}";
+            //}
             ExchangeRate = GetExchangeRate();
         }
+
         private string GetExchangeRate()
         {
             var task = Task.Run(async () => await httpManager.GetData());
@@ -26,7 +41,11 @@ namespace CurrencyCalculator.ViewModel
         }
         public string ExchangeRate
         {
-            get => myModel.exchangeRate;
+            get
+            {
+                CalculateCurrency(myModel.exchangeRate, myModel.dollar);
+                return myModel.exchangeRate;
+            }
             set
             {
                 if (myModel.exchangeRate != value)
